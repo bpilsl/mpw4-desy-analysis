@@ -1,0 +1,11 @@
+RunNumber, telescopeGeometry
+{057-185}, 057_detectors_full_aligned.geo
+199, 199_detectors_full_aligned.geo
+{202-279}, 271_detectors_mille_full_aligned.geo
+281, 281_detectors_full_aligned.geo
+295, 295_detectors_full_aligned.geo
+299, 299_detectors_full_aligned.geo
+{308-331}, 328_detectors_full_aligned.geo
+{335-465}, 335_detectors_full_aligned.geo
+{468-506}, 468_detectors_full_aligned.geo
+
