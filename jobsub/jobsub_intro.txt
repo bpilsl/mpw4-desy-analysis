@@ -1,0 +1,20 @@
+General notes
+
+The folder programme contains the folder "jobsub" which should already be installed within your corry installation. This file gives a short introduction on how to use jobsub. More detailed information can be found in the Manual in the section "Additional Tools & Resources".
+
+Reqirements
+
+In order to use jobsub, a config file containing variables (@your_variable@) as well as a csv file mapping the values to the variables to the run numbers needs to be created. A mandatory variable which has to be set is @RunNumber@. Example files are provided in this folder (refering to the desy testbeam in 04.24 with mpw4). Corry must be added to path to use jobsub.
+
+Usage
+
+python3 jobsub.py -c <your_path_to_cfg>/analysis_jobsub.cfg -csv <your_path_to_csv>/jobsub_list.csv --zfill 3 -s <runnumber/s>
+
+-zfill: sets runnumber to fixed length: --zfill 3: 10 -> 010
+-s supresses output to console
+Runnumber: for more that one run use Syntax: {202,301-320,340}, for singel run just the number: 202
+
+Output
+
+The output will be generated in a separate folder. Per default, the generated config and log files are directly printed in the jobsub folder. 
+
